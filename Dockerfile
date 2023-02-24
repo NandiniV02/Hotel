@@ -1,3 +1,3 @@
 FROM adoptopenjdk:16-jre
-COPY HotelBookingApp-*.jar /app.jar
+COPY target/HotelBookingApp*.jar /app.jar
 CMD java -jar /app.jar
